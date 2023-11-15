@@ -35,3 +35,11 @@
     margin: auto;
     justify-content: center;
 }
+
+.tittle{
+    font-size: 50px;
+}
+
+.desc{
+    font-size: 20px;
+}
