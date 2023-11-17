@@ -4,6 +4,12 @@ import Image from 'next/image'
 import Button from '@/components/Button/Button'
 import contact from '../assets/contact.png'
 
+
+export const metadata = {
+  title: 'Lama Dev Contact Information',
+  description: 'This is Contact Page',
+}
+
 const Contact = () => {
   return (
     <div className={styles.container}>
