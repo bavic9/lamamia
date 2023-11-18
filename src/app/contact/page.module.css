@@ -50,3 +50,28 @@
     border: 3px solid #bbb;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 767px){
+    .tittle{
+        font-size: 30px;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imgContainer{
+        flex: none;
+        height: 300px;
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .tittle{
+        font-size: 40px;
+    }
+}

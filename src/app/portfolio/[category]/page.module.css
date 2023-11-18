@@ -43,3 +43,51 @@
 .desc{
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 767px){
+    .item{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .item:nth-child(2n+1){
+        flex-direction: column-reverse;
+    }
+    
+    .imgContainer{
+        flex: none;
+        height: 350px;
+    }
+
+    .content{
+        width: 90%;
+    }
+
+    .tittle{
+        font-size: 25px;
+    }
+
+    .desc{
+        font-size: 15px;
+    }
+    
+  }
+
+
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .imgContainer{
+        height: 320px;
+    }
+
+    .tittle{
+        font-size: 30px;
+    }
+
+    .desc{
+        font-size: 18px;
+    }
+
+  }

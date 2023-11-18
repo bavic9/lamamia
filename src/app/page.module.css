@@ -40,3 +40,44 @@
   font-weight: 300;
 }
 
+
+@media screen and (max-width: 767px){
+  .container{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .item{
+    gap: 15px;
+  }
+
+  .tittle{
+    font-size: 50px;
+  }
+
+  .desc{
+    font-size: 20px;
+  }
+
+  .img{
+    width: 90%;
+    height: 300px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .container{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .item{
+    gap: 20px;
+  }
+
+  .img{
+    width: 80%;
+  }
+}

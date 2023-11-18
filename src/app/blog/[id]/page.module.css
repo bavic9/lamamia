@@ -54,3 +54,59 @@
   color: #999;
   text-align: justify;
 }
+
+
+@media screen and (max-width: 767px){
+  .top{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info{
+    gap: 20px;
+  }
+  
+.tittle{
+  font-size: 20px;
+}
+
+.desc{
+  font-size: 15px;
+}
+
+.imageContainer{
+  height: 200px;
+}
+
+.image{
+  width: 100%;
+}
+
+.content{
+  font-size: 15px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .top{
+    gap: 10px;
+  }
+
+  .image{
+    width: 100%;
+}
+
+.tittle{
+  font-size: 25px;
+}
+
+.desc{
+  font-size: 16px;
+}
+
+.content{
+  font-size: 18px;
+}
+
+}

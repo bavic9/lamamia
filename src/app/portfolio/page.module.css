@@ -47,3 +47,45 @@
 .item:hover .tittle{
     color: #53c28b;
 }
+
+@media screen and (max-width: 767px){
+    .items{
+        flex-direction: column;
+        padding-bottom: 20px;
+        width: fit-content;
+        margin: auto;
+    }
+    .mainTittle{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .selectTittle{
+        text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mainTittle{
+        font-size: 60px;
+        padding-bottom: 10px;
+    }
+
+    .items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .selectTittle{
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .item{
+        width: 80%;
+        height: 400px;
+    }
+  }
