@@ -1,9 +1,10 @@
+
 import { Inter, Montserrat } from 'next/font/google'
 import './globals.css'
-import { Navbar } from 'react-bootstrap'
 import Nav from '@/components/navbar/Nav'
 import Footer from '@/components/footer/Footer'
 import { ThemeProvider } from '@/context/ThemeContext'
+import { AuthProvider } from '@/components/AuthProvider/AuthProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 const montserrat = Montserrat({ subsets: ['latin'], weight: '400' })
@@ -18,11 +19,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserrat.className}>
         <ThemeProvider>
-          <div className='container'>
-            <Nav/>
-            {children}
-            <Footer/>
-          </div>
+          {/* <AuthProvider> */}
+            <div className='container'>
+              <Nav/>
+              {children}
+              <Footer/>
+            </div>
+          {/* </AuthProvider> */}
         </ThemeProvider>
       </body>
     </html>

@@ -14,7 +14,10 @@
 /out/
 
 # production
-/build
+# /build
+
+#secrete
+.env
 
 # misc
 .DS_Store
